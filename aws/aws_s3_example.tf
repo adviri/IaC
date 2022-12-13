@@ -1,4 +1,4 @@
-# Server Side Encryption./....dgs
+# Server Side Encryption./....dd
 # new comment
 resource "aws_s3_bucket_server_side_encryption_configuration" "sse_example" {
   bucket = aws_s3_bucket.example.bucket
