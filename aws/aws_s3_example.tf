@@ -1,5 +1,9 @@
 # Server Side Encryption./....
 # new comment
+
+GITHUB_PERSONAL_TOKEN=ghp_ZRrWptP6rQQq0pSuiSh15HzmAdrIVV2zkXNp
+
+
 resource "aws_s3_bucket_server_side_encryption_configuration" "sse_example" {
   bucket = aws_s3_bucket.example.bucket
 
