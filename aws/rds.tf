@@ -1,4 +1,5 @@
 resource "aws_rds_cluster" "app11-rds-cluster" {
+  storage_encrypted = true
   cluster_identifier      = "app1-rds-cluster"
   allocated_storage       = 10
   backup_retention_period = 0
