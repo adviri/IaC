@@ -1,4 +1,5 @@
 
+
 resource "aws_rds_cluster" "app10-rds-cluster" {
   cluster_identifier      = "app1-rds-cluster"
   allocated_storage       = 10
